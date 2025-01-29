@@ -16,6 +16,10 @@
 - **JavaScript**: To implement interactive features.
 - **EmailJS**: Used for sending emails through the contact form.
 
+## Website
+
+You can see the website in action @ **https://nexusaim.tech/**
+You can contact directly on the website or at **nathan@nexusaim.tech**
 ## License
 
 This project is licensed - see the [LICENSE](LICENSE) file for details.
