@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>We luv Fl1ck</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  </head>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<body>
+  <div id="loading-screen">
+    <div class="loader"></div>
+  </div>
+        
+  <div id="particles-js"></div>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <div class="video-background">
+    <div id="background-image"></div>
+  </div>
+
+  <div class="video-overlay"></div>
+
+  <div class="content">
+    <h1>Portfolio</h1>
+    <p>Soon to be released Nath's Portfolio. Login now to access my unreleased tools.</p>
+    <p><small>https://github.com/champagnenathan</small></p>
+    
+    <div class="button-container">
+      <a href="#" class="button" id="login-button">Login</a>
+      <a href="#" class="button" id="contact-button">Contact Us</a>
+    </div>
+  </div>
+<div id="topBlackBar"/>
+  <div class="contact-us-modal modal" id="contact-us-modal">
+    <button class="close-btn" id="close-contact-modal">&times;</button>
+    <p>Contact Us</p>
+    <textarea id="message-text" placeholder="Or send us a message at nathan@nexusaim.tech"></textarea>
+
+    <div class="captcha-container">
+      <p><small>What is <span id="captcha-question">5 + 3</span>?</small></p>
+      <input type="text" id="captcha-input" class="captcha-input" placeholder="Enter your answer">
+      <div class="captcha-image">
+        <div class="captcha-scribble"></div>
+      </div>
+    </div>
+
+    <button id="send-message">Send</button>
+  </div>
+
+  <button class="mute-button" id="mute-button">
+    <i id="volume-icon" class="fas fa-volume-mute"></i>
+  </button>
+
+  <div class="login-modal modal" id="login-modal">
+    <button class="close-btn" id="close-login-modal">&times;</button>
+    <p>Login</p>
+    <form id="login-form" autocomplete="on">
+      <input type="text" id="username" name="username" placeholder="Username" autocomplete="username">
+      <input type="password" id="password" name="password" placeholder="Password" autocomplete="current-password">
+      <button id="login-submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
