@@ -18,7 +18,7 @@
 
 ## Website
 
-You can see the website in action @ **https://nexusaim.tech/**.
+You can see the website in action @ **https://nexusaim.tech/**
 
 You can contact directly on the website or at **nathan@nexusaim.tech**
 ## License
